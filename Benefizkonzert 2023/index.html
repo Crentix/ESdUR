@@ -793,6 +793,11 @@
 			#mozart-thumbnail {
 				width: 240px !important;
 			}
+
+			#contact-esdur > tbody > tr > td, #contact-credits > tbody > tr > td {
+				width: calc(135px - 2rem) !important;
+			}
+
 		}
 		@media (max-width: 580px) {
 			#mozart-thumbnail {
@@ -1200,8 +1205,8 @@
 									</table>
 								</div>
 								<div style="margin-bottom: 1.5rem;">
-									<p style="margin-bottom: .5rem;"><strong>Ehemalige Studierende der Universität Regensburg e.V.</strong></p>
-									<table style="border: none; margin: 0; width: unset;">
+									<p style="margin-bottom: .5rem; font-size: 95%;"><strong>Ehemalige Studierende der Universität Regensburg e.V.</strong></p>
+									<table style="border: none; margin: 0; width: unset;" id="contact-esdur">
 										<tbody>
 											<tr>
 												<td style="border: none; padding: 0 2rem 0 0; width: calc(150px - 2rem);">Vorsitzender</td>
@@ -1221,7 +1226,7 @@
 									</table>
 								</div>
 								<div style="margin-bottom: 4rem;">
-									<table style="border: none; margin: 0; width: unset;">
+									<table style="border: none; margin: 0; width: unset;"  id="contact-credits">
 										<tbody>
 											<tr>
 												<td style="border: none; padding: 0 2rem 0 0; font-weight: inherit; width: calc(150px - 2rem);">Layout & Design</td>
